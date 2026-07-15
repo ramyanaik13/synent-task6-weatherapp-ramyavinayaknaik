@@ -33,11 +33,11 @@ button{
     padding: 12px;
     font-size: 16px;
 }
-button {
+/* button {
     padding: 12px 20px;
     font-size: 16px;
     cursor: pointer;
-}
+} */
 #weather h2 {
     font-size: 38px;
     margin-bottom: 20px;
@@ -50,4 +50,27 @@ button {
 .weather-box {
     width: 400px;
     padding: 30px;
+}/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    .weather-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* Improved button styling */
+button {
+    border-radius: 8px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 16px;
 }
