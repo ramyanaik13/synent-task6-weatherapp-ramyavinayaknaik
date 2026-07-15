@@ -47,3 +47,7 @@ button {
     font-size: 22px;
     margin: 15px 0;
 }
+.weather-box {
+    width: 400px;
+    padding: 30px;
+}
