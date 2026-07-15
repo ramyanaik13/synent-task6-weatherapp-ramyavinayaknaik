@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    background:#87ceeb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.container {
+    width: 450px;          
+    min-height: 500px;     
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+input{
+    padding:10px;
+}
+button{
+    padding:10px;
+    cursor:pointer;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px 0;
+}
+#city {
+    width: 260px;
+    padding: 12px;
+    font-size: 16px;
+}
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#weather h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+#weather p {
+    font-size: 22px;
+    margin: 15px 0;
+}
