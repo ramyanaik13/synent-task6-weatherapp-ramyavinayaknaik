@@ -1,3 +1,4 @@
+// Fetch weather data from API and display results
 async function getWeather() {
 
     const city = document.getElementById("city").value.trim();
